@@ -14,13 +14,13 @@ public class IMC {
         System.out.printf("Seu IMC é: \n", imc);
 
         if (imc < 18.5) {
-            System.out.println("Interpretacao: Abaixo do peso");
+            System.out.println("Voce esta abaixo do peso");
         } else if (imc < 25) {
-            System.out.println("Interpretacao: Normal");
+            System.out.println("Voce esta com peso normal");
         } else if (imc < 30) {
-            System.out.println("Interpretacao: Sobrepeso");
+            System.out.println("Voce esta com sobrepeso");
         } else {
-            System.out.println("Interpretacao: Obesidade");
+            System.out.println("Voce esta com obesidade");
         }
 
         sc.close();
